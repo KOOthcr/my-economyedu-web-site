@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+}
+#IndexStyle{
+    text-align: center;
+    background-color: white;
+    display: block;
+  
+}
+@media(max-width:590px) {
+                
+    #indexclover1{
+        display:none;
+    }
+    #indexclover2{
+        display:none;
+    }
+}
+#index{
+    text-decoration-line: none;
+    color: rgb(61, 162, 74);
+    font-size: 100px;
+
+}
+#Contents{
+    border-top: 1px solid rgb(61, 162, 74);
+    border-bottom: 1px solid rgb(61, 162, 74);
+    display: grid;
+    grid-template-columns: 1fr 150px 150px 150px 1fr;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+#content{
+    text-decoration-line: none;
+    color: rgb(61, 162, 74);
+}/*여기까지 contents 디자인*/

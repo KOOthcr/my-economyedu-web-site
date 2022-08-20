@@ -1,0 +1,101 @@
+.container{
+    display: grid;
+}
+.Header{
+    text-align: center;
+    background-color: white;
+    display: block;
+  
+}
+@media(max-width:590px) {
+                
+    #indexclover1{
+        display:none;
+    }
+    #indexclover2{
+        display:none;
+    }
+}
+#index{
+    text-decoration-line: none;
+    color: rgb(61, 162, 74);
+    font-size: 100px;
+
+}
+.Contents{
+    display: grid;
+    border-top: 2px solid rgb(61, 162, 74);
+    border-bottom: 2px solid rgb(61, 162, 74);
+    grid-template-columns: 1fr 150px 150px 150px 1fr;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+.content{
+    text-decoration-line: none;
+    color: rgb(61, 162, 74);
+}/*여기까지 contents 디자인*/
+.MAndS{
+    display: grid;
+    grid-template-columns: 150px 3fr;
+    margin-top: 40px;
+    
+}
+.sidebar{
+
+    display: grid;
+    border:2px rgb(61, 162, 74) solid;
+    border-radius: 25px;
+    
+}
+.MainContents{
+    display: grid;
+    
+}
+#Asset{
+    display: grid;
+    padding: 10px;
+}
+#Credit{
+    display: grid;
+    padding: 10px;
+    
+}
+#Bank{
+    display: grid;
+    padding: 10px;
+    
+}
+#Stock{
+    display: grid;
+    padding: 10px;
+    
+}
+#Property{
+    display: grid;
+    padding: 10px;
+    
+}
+#Shopping{
+    display: grid;
+    padding: 10px;
+    
+}
+#Rental{
+    display: grid;
+    padding: 10px;
+    
+}
+#Class{
+    display: grid;
+    padding: 10px;
+    
+}
+
+.sidebar-a{
+    text-decoration-line: none;
+    color: rgb(61, 162, 74);
+    font-size: 25px;
+    text-align: center;
+}
+
