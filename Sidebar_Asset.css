@@ -1,0 +1,72 @@
+.MainContents{
+    display: grid;
+    margin-left: 150px;
+    margin-right: 350px;
+    grid-template-columns: 1fr 700px 1fr;
+}
+.AssetContents{
+    display: grid;
+    grid-column: 2 / 2;
+    border:2px rgb(61, 162, 74) solid;
+    grid-template-rows: 40px 70px 40px 300px 40px;
+}
+.allsset{
+    display: grid;
+    background-color: rgb(61, 162, 74);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.allmoney{
+    display: grid;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+.detailofasset{
+    display: grid;
+    background-color: rgb(61, 162, 74);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.graph{
+    display: grid;
+    grid-template-rows: 60px 60px 60px 60px 60px;
+}
+.cash{
+    display: grid;
+    grid-template-columns: 100px 350px 150px 50px;
+    padding: 5px;
+    font-size: 25px;
+}
+.deposit{
+    display: grid;
+    grid-template-columns: 100px 350px 150px 50px;
+    padding: 5px;
+}
+.credit{
+    display: grid;
+    grid-template-columns: 100px 350px 150px 50px;
+    padding: 5px;
+}
+.property{
+    display: grid;
+    grid-template-columns: 100px 350px 150px 50px;
+    padding: 5px;
+}
+.etc{
+    display: grid;
+    grid-template-columns: 100px 350px 150px 50px;
+    padding: 5px;
+}
+.inquiry{
+    display: grid;
+    background-color: rgb(61, 162, 74);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
