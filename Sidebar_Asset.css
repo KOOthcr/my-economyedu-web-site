@@ -8,7 +8,7 @@
     display: grid;
     grid-column: 2 / 2;
     border:3px rgb(61, 162, 74) solid;
-    grid-template-rows: 40px 70px 40px 300px 50px;
+    grid-template-rows: 40px 70px 40px 350px 50px;
     
 }
 .allsset{
@@ -37,7 +37,7 @@
 }
 .graph{
     display: grid;
-    grid-template-rows: 60px 60px 60px 60px 60px;
+    grid-template-rows: 70px 70px 70px 70px 70px;
 }
 .cash{
     display: grid;
