@@ -7,8 +7,9 @@
 .AssetContents{
     display: grid;
     grid-column: 2 / 2;
-    border:2px rgb(61, 162, 74) solid;
-    grid-template-rows: 40px 70px 40px 300px 40px;
+    border:3px rgb(61, 162, 74) solid;
+    grid-template-rows: 40px 70px 40px 300px 50px;
+    
 }
 .allsset{
     display: grid;
@@ -17,6 +18,7 @@
     font-size: 20px;
     text-align: center;
     padding: 5px;
+    border:1px rgb(61, 162, 74) solid;
 }
 .allmoney{
     display: grid;
@@ -31,6 +33,7 @@
     font-size: 20px;
     text-align: center;
     padding: 5px;
+ 
 }
 .graph{
     display: grid;
@@ -38,35 +41,65 @@
 }
 .cash{
     display: grid;
-    grid-template-columns: 100px 350px 150px 50px;
+    grid-template-columns: 100px 350px 150px 45px;
     padding: 5px;
-    font-size: 25px;
 }
 .deposit{
     display: grid;
-    grid-template-columns: 100px 350px 150px 50px;
+    grid-template-columns: 100px 350px 150px 45px;
     padding: 5px;
 }
 .credit{
     display: grid;
-    grid-template-columns: 100px 350px 150px 50px;
+    grid-template-columns: 100px 350px 150px 45px;
     padding: 5px;
 }
 .property{
     display: grid;
-    grid-template-columns: 100px 350px 150px 50px;
+    grid-template-columns: 100px 350px 150px 45px;
     padding: 5px;
 }
 .etc{
     display: grid;
-    grid-template-columns: 100px 350px 150px 50px;
+    grid-template-columns: 100px 350px 150px 45px;
     padding: 5px;
 }
 .inquiry{
     display: grid;
+    padding: 5px;
+}
+
+#contnets_1{
+    font-size: 20px;
+    text-align: center;
+}
+
+#contnets_2{
+    font-size: 20px;
+    text-align: center;
+}
+
+#contnets_3{
+    font-size: 20px;
+    text-align: center;
+}
+
+#contnets_4{
+    font-size: 20px;
+    text-align: center;
+}
+
+#contnets_5{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* 그래프 및 금액, 퍼센트 안함 */
+
+#inquirybutton{
     background-color: rgb(61, 162, 74);
     color: white;
     font-size: 20px;
     text-align: center;
-    padding: 5px;
 }
