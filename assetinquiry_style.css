@@ -1,0 +1,53 @@
+.MainContents{
+    display: grid;
+    margin-left: 100px;
+    margin-right: 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr;
+}
+.inquiry_button{
+    display: grid;
+    grid-template-columns: 1fr 120px 120px 120px 120px;
+    grid-template-rows: 50px;
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+#all{
+    display: grid;
+    font-size: 20px;
+    text-align: center;
+    border:3px rgb(61, 162, 74) solid;
+    background-color: white;
+    color: #000;
+}
+#expense{
+    display: grid;
+    font-size: 20px;
+    text-align: center;
+    border:3px rgb(61, 162, 74) solid;
+    background-color: white;
+    color: #000;
+}
+#income{
+    display: grid;
+    font-size: 20px;
+    text-align: center;
+    border:3px rgb(61, 162, 74) solid;
+    background-color: white;
+    color: #000;
+}
+#add{
+    display: grid;
+    font-size: 20px;
+    text-align: center;
+    border:3px rgb(61, 162, 74) solid;
+    background-color: white;
+    color: #000;
+}
+
+.table{
+    display: grid;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}

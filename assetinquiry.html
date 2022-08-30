@@ -4,7 +4,7 @@
         <title> 경제활동프로젝트 - 상평통보 </title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="./EconomyStyle.css">
-       
+        <link rel="stylesheet" href="./assetinquiry_style.css">
     </head>
     <body>
        
@@ -33,7 +33,29 @@
                     <div id="Class"><a class="sidebar-a" href="./Sidebar_Class.html" target="_self">우리반현황</a></div>
                 </div>
                 <div class="MainContents"> 
-                    
+                    <div class="inquiry_button">
+                        <div></div>
+                        <div><input type="button" id="all" value="전체내역" onclick="location.href='assetinquiry.html'"> </div>
+                        <div><input type="button" id="expense" value="지출내역" onclick="/*수입내역만*/"> </div>
+                        <div><input type="button" id="income" value="수입내역" onclick="/*지출내역만*/"> </div>
+                        <div><input type="button" id="add" value="추가하기" onclick="/*추가하기*/"> </div>
+                    </div>
+                    <div class="table">
+                        <table>
+                            <thead>
+                                <tr>
+                                <td>순서</td>
+                                <td>날짜</td>
+                                <td>금액처</td>
+                                <td>금액</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>                            
+                        </table>
+                    </div>
+                    <!-- 추가하기에서 div 추가 -->
                 </div>
             </div>
         </div>
