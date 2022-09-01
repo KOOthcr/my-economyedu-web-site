@@ -7,7 +7,7 @@
 }
 .inquiry_button{
     display: grid;
-    grid-template-columns: 1fr 120px 120px 120px 120px;
+    grid-template-columns: 1fr 120px 120px 120px 120px 120px;
     grid-template-rows: 50px;
     margin-left: 100px;
     margin-bottom: 0;
@@ -37,6 +37,14 @@
     color: #000;
 }
 #add{
+    display: grid;
+    font-size: 20px;
+    text-align: center;
+    border:3px rgb(61, 162, 74) solid;
+    background-color: white;
+    color: #000;
+}
+#delete{
     display: grid;
     font-size: 20px;
     text-align: center;
