@@ -1,0 +1,13 @@
+.MainContents{
+    display: grid;
+    margin-left: 150px;
+    margin-right: 350px;
+    grid-template-columns: 1fr 700px 1fr;
+}
+.CreditContents{
+    display: grid;
+    grid-column: 2 / 2;
+    border:3px rgb(61, 162, 74) solid;
+    grid-template-rows: 40px 70px 40px 350px 50px;
+    
+}
