@@ -2,12 +2,103 @@
     display: grid;
     margin-left: 150px;
     margin-right: 350px;
-    grid-template-columns: 1fr 700px 1fr;
+    grid-template-columns: 1fr 705px 1fr;
 }
 .CreditContents{
     display: grid;
     grid-column: 2 / 2;
     border:3px rgb(61, 162, 74) solid;
-    grid-template-rows: 40px 70px 40px 350px 50px;
+    grid-template-rows: 100px 50px 100px 200px 70px;
     
+}
+#Header{
+    display: grid;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    color: rgb(61, 162, 74);
+}
+.ScoreAndRating{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    font-size: 40px;
+    
+}
+#CreditScore{
+    color: red;
+    text-align: right;
+}
+#Footer{
+    display: grid;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(61, 162, 74);
+}
+.Benefit{
+    display: grid;
+}
+.Benefit1{
+    display: grid;
+    text-align: right;
+    font-size: 25px;
+    grid-template-columns: 150px 1fr;
+    
+} 
+#BenefitContents1{
+    display: grid;
+    text-align: left;
+    margin-left: 15px;
+}
+.Benefit2{
+    display: grid;
+    text-align: right;
+    font-size: 25px;
+    grid-template-columns: 150px 1fr;
+    
+} 
+#BenefitContents2{
+    display: grid;
+    text-align: left;
+    margin-left: 15px;
+}
+.Benefit3{
+    display: grid;
+    text-align: right;
+    font-size: 25px;
+    grid-template-columns: 150px 1fr;
+    
+} 
+#BenefitContents3{
+    display: grid;
+    text-align: left;
+    margin-left: 15px;
+}
+.button{
+    display: grid;
+    grid-template-columns: 450px 250px;
+ 
+}
+#CreditIncrease{
+    display: grid;
+    text-align: center;
+    padding: 5px;
+    
+}
+#CreditRatingTable{
+    display: grid;
+    text-align: center;
+    padding: 5px;
+}
+#CreditIncreaseButton{
+    background-color: rgb(61, 162, 74);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+#CreditRatingTableConfirm{
+    background-color: rgb(61, 162, 74);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
 }
