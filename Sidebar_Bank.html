@@ -4,7 +4,7 @@
         <title> 경제활동프로젝트 - 상평통보 </title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="./EconomyStyle.css">
-       
+        <link rel="stylesheet" href="./Sidebar_BankStyle.css">
     </head>
     <body>
        
@@ -33,7 +33,27 @@
                     <div id="Class"><a class="sidebar-a" href="./Sidebar_Class.html" target="_self">우리반현황</a></div>
                 </div>
                 <div class="MainContents"> 
-                    /조회하기/ / /이체하기/ 저금하기 / 예금하기 
+                    <div class="BankContents">
+                        <div class="bankname">00저축은행</div>
+                        <div class="banknumber">00-000-0000</div>
+                        <div class="money">1000원</div>
+                        <div class="interest">
+                            <div id="CreditRating">*신용등급(0등급)에 따라</div>
+                            <div id="interestrate">이자율은 0%입니다.</div>
+                        </div>
+                        <div class="inerestexpiration">*나의 이자 만기일은 0월 0일 입니다.</div>
+                        <div class="button">
+                            <div id="deposit">
+                                <input type="button" id="depositbutton" value="예금하기" onclick="location.href='deposit.html'">
+                            </div>
+                            <div id="bankinquiry">
+                                <input type="button" id="bankinquirybutton" value="조회하기" onclick="location.href='bankinquiry.html'">
+                            </div>
+                            <div id="transfer">
+                                <input type="button" id="transferbutton" value="이체하기" onclick="location.href='moneytransfer.html'">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

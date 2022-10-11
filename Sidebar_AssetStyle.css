@@ -18,7 +18,7 @@
     font-size: 20px;
     text-align: center;
     padding: 5px;
-    border:1px rgb(61, 162, 74) solid;
+    border:3px rgb(61, 162, 74) solid;
 }
 .allmoney{
     display: grid;

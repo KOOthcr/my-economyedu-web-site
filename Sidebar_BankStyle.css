@@ -1,0 +1,85 @@
+.MainContents{
+    display: grid;
+    margin-left: 150px;
+    margin-right: 350px;
+    grid-template-columns: 1fr 705px 1fr;
+}
+.BankContents{
+    display: grid;
+    grid-column: 2 / 2;
+    border:3px rgb(61, 162, 74) solid;
+    grid-template-rows: 125px 50px 125px 75px 75px 100px;
+    
+}
+.bankname{
+    display: grid;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.banknumber{
+    display: grid;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.money{
+    display: grid;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+}
+.interest{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+}
+#CreditRating{
+    font-size: 30px;
+    margin-left: 20px;
+}
+#interestrate{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.inerestexpiration{
+    display: grid;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#deposit{
+    display: grid;
+    text-align: center;
+    padding: 5px;
+}
+#bankinquiry{
+    display: grid;
+    text-align: center;
+    padding: 5px;
+}
+#transfer{
+    display: grid;
+    text-align: center;
+    padding: 5px;
+}
+#depositbutton{
+    background-color: rgb(61, 162, 74);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+#bankinquirybutton{
+    background-color: rgb(61, 162, 74);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+#transferbutton{
+    background-color: rgb(61, 162, 74);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
